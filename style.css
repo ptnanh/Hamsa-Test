@@ -440,7 +440,7 @@ a {
 }
 @media screen and (max-width: 350px) {
   .container {
-    max-width: 230px;
+    max-width:350px;
   }
   .background-image {
     height: 667px;
