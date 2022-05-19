@@ -1,0 +1,468 @@
+@font-face {
+  src: url("./Fonts/Helvetica Now/HelveticaNowText-Regular.ttf");
+  font-family: HelveticaNowText-Medium;
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: HelveticaNowText-Medium;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1366px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.header {
+  width: 100%;
+  height: 768px;
+  position: relative;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: auto;
+}
+
+.header nav {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 2rem 3%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header nav .nav-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header nav .nav-left .logo {
+  width: 8rem;
+}
+
+.header nav .nav-left ul {
+  margin-left: 1.5rem;
+}
+
+.header nav .nav-left ul li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 1rem;
+}
+
+.header nav .nav-left ul li a {
+  font-size: 12px;
+  font-family: HelveticaNowText-Medium;
+  color: #232222;
+  text-decoration: none;
+}
+
+.header nav .nav-left ul li a:hover {
+  font-weight: bold;
+  color: #1F1E1D;
+  text-decoration: none;
+}
+
+.header nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 0.8rem;
+}
+
+.header nav ul li a {
+  font-size: 12px;
+  font-family: HelveticaNowText-Medium;
+  color: #232222;
+  text-decoration: none;
+}
+
+.header nav ul li a img {
+  width: 100%;
+  height: 100%;
+}
+
+.header nav .btn {
+  display: inline;
+  cursor: pointer;
+  display: none;
+}
+
+.header .content {
+  margin-top: 37%;
+  width: 100%;
+  text-align: center;
+}
+
+.header .content h1 {
+  font-size: 29px;
+  font-family: HelveticaNowText-Medium;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.header .content a {
+  text-decoration: none;
+  text-transform: uppercase;
+  display: inline-block;
+  color: #fff;
+  font-size: 13px;
+  font-family: HelveticaNowText-Medium;
+  border: 2px solid #fff;
+  padding: 1.2rem 6rem;
+  margin-top: 0.8rem;
+}
+
+.background-image {
+  background-image: url("./image/Mask Group 14.jpg");
+  background-size: cover;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: 49%;
+}
+
+.section-first {
+  width: 100%;
+  height: 550px;
+  margin-bottom: 2rem;
+}
+
+.section-first .section-first-container {
+  width: 97%;
+  margin: auto;
+  position: relative;
+  height: 100%;
+}
+
+.section-first .section-first-container .section-title {
+  padding: 0;
+}
+
+.section-first .section-first-container .section-title h1 {
+  font-size: 16px;
+  font-family: HelveticaNowText-Medium;
+  color: #232222;
+  font-weight: 900;
+  text-transform: uppercase;
+  line-height: 4.25rem;
+  margin-bottom: 0;
+}
+
+.section-first .section-first-container .section-content {
+  width: 100%;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.section-first .section-first-container .section-content .section-content-item {
+  width: 33%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section-first .section-first-container .section-content .section-content-item img {
+  width: 100%;
+  margin-bottom: 0.8rem;
+}
+
+.section-first .section-first-container .section-content .section-content-item a {
+  font-family: HelveticaNowText-Medium;
+  font-size: 14px;
+  font-weight: bold;
+  color: #232222;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+.section-last {
+  width: 100%;
+  height: 142.03px;
+  border-top: 1px solid #908d8d;
+  border-bottom: 1px solid #908d8d;
+}
+
+.section-last .section-last-container {
+  width: 97%;
+  margin: auto;
+  margin-top: 2.2rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.section-last .section-last-container h2 {
+  font-size: 14px;
+  font-family: HelveticaNowText-Medium;
+  color: #232222;
+}
+
+.section-last .section-last-container .section-last-content a {
+  font-size: 11px;
+  font-family: HelveticaNowText-Medium;
+  font-weight: bold;
+  text-decoration: none;
+  color: #232222;
+  border: 2px solid #1F1E1D;
+  padding: 0.2rem 0.5rem;
+  margin-left: 0.2rem;
+}
+
+.footer {
+  width: 100%;
+}
+
+.footer .footer-list {
+  text-align: center;
+  padding: 1.67rem 0;
+  border-bottom: 1px solid #908d8d;
+}
+
+.footer .footer-list a {
+  text-transform: uppercase;
+  font-family: HelveticaNowText-Medium;
+  font-size: 12px;
+  margin-left: 1.67rem;
+  color: #232222;
+  text-decoration: none;
+}
+
+.footer .footer-logo {
+  text-align: center;
+  padding: 1.67rem 0 3.33rem;
+}
+
+@media screen and (max-width: 1138px) {
+  .container {
+    max-width: 1138px;
+  }
+  .header nav .nav-left ul {
+    display: none;
+  }
+  .header nav .btn {
+    display: none;
+  }
+  .section-first {
+    width: 100%;
+    height: 480px;
+  }
+  .section-first .section-first-container .section-content .section-content-item {
+    width: 33%;
+  }
+}
+
+@media screen and (max-width: 772px) {
+  .container {
+    max-width: 772px;
+  }
+  .background-image {
+    height: 1024px;
+    background-image: url("./image/Mask Group 14-tablet.png");
+  }
+  .header nav .nav-left {
+    width: 50%;
+  }
+  .header nav .nav-left ul {
+    display: none;
+  }
+  .header nav ul {
+    display: none;
+  }
+  .header nav .btn {
+    width: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: right;
+        -ms-flex-pack: right;
+            justify-content: right;
+    text-align: center;
+    padding: 0;
+  }
+  .header nav .btn img {
+    width: 40%;
+  }
+  .header .content{
+    padding-top:100%;
+  }
+  .section-first {
+    width: 100%;
+    height: 850px;
+  }
+  .section-first .section-first-container .section-content {
+    width: 100%;
+    position: absolute;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .section-first .section-first-container .section-content .section-content-item {
+    width: 48%;
+    margin-bottom: 1rem;
+  }
+  .section-last .section-last-container .section-last-content a {
+    font-size: 9px;
+    padding: 0.2rem 0.5rem;
+    margin-left: 0.1rem;
+  }
+  .footer .footer-list a {
+    font-size: 9px;
+    margin-left: 1rem;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .container {
+    max-width: 560px;
+  }
+  .background-image {
+    background-image: url("./image/Mask Group 14-tablet.png");
+  }
+  .section-first {
+    width: 100%;
+    height: 660px;
+  }
+}
+@media screen and (max-width:520px) {
+  .container {
+    max-width: 520px;
+  }
+  .section-last .section-last-container .section-last-content a {
+    display: inline-block;
+  }
+}
+@media screen and (max-width: 420px) {
+  .container {
+    max-width: 480px;
+  }
+  .background-image {
+    background-image: url("./image/Mask Group 14.png");
+  }
+  .background-image .header{
+    height: 100%;
+  }
+  .header .content {
+    padding-top: 120% ;
+  }
+  .section-first {
+    width: 100%;
+    height: 1340px;
+  }
+  .section-first .section-first-container .section-content {
+    width: 100%;
+    position: absolute;
+    display: block;
+  }
+  .section-first .section-first-container .section-content .section-content-item {
+    width: 98%;
+    margin-bottom: 1rem;
+  }
+  .section-first .section-first-container .section-content .section-content-item img {
+    width: 100%;
+    margin-bottom: 0.8rem;
+  }
+  .section-first .section-first-container .section-content .section-content-item a {
+    font-family: HelveticaNowText-Medium;
+    font-size: 13px;
+    font-weight: bold;
+    color: #232222;
+    text-transform: uppercase;
+    text-decoration: underline;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .container {
+    max-width: 380px;
+  }
+  .background-image {
+    height: 667px;
+    background-image: url("./image/Mask Group 14.png");
+  }
+  .background-image .header{
+    height: 100%;
+  }
+  .header .content {
+    padding-top: 80% ;
+  }
+  .section-first {
+    width: 100%;
+    height: 1200px;
+  }
+  .section-first .section-first-container .section-content {
+    width: 100%;
+    position: absolute;
+    display: block;
+  }
+  .footer .footer-list a {
+    display: block;
+    font-size: 9px;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 350px) {
+  .container {
+    max-width: 230px;
+  }
+  .background-image {
+    height: 667px;
+    background-image: url("./image/Mask Group 14.png");
+  }
+  .background-image .header{
+    height: 100%;
+  }
+  .header .content {
+    padding-top: 80% ;
+  }
+  .header .content a{
+    padding: 0.6rem 3rem;
+    margin-top: 0.8rem;
+  }
+  .section-first {
+    width: 100%;
+    height: 930px;
+  }
+  .section-last .section-last-container{
+    margin-top:0.8rem;
+    margin-bottom: 0.4rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */
